@@ -16,7 +16,6 @@ J = 0;
 predictions = X * theta;
 difference = predictions - y;
 J = sum(difference.^2)/(2*m);
-
 % =========================================================================
 
 end
